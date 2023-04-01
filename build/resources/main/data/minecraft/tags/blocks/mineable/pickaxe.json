@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "bluecen:bluecen_block",
+    "bluecen:deepslate_bluecen_ore",
+    "bluecen:bluecen_ore",
+    "bluecen:iron_bluecen_block",
+    "bluecen:gold_bluecen_block",
+    "bluecen:emerald_bluecen_block",
+    "bluecen:diamond_bluecen_block",
+    "bluecen:netherite_bluecen_block",
+    "bluecen:bluecen_anchor"
+  ]
+}

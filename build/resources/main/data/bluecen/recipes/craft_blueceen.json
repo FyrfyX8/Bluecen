@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "bluecen:bluecen_block"
+    }
+  },
+  "result": {
+    "item": "bluecen:bluecen",
+    "count": 9
+  }
+}

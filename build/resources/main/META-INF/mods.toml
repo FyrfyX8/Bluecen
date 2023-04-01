@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="bluecen"
+version="1.1.0"
+displayName="Bluecen"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/bluecen"
+logoFile="logo.png"
+authors="FyrfyX8"
+description='''
+This Mod adds two new materials, the first one is Bluecen wich has jump boost like powers and teh second one is Blue Iron wich is an alloy of Iron and Bluecen.
+'''
+
+[[dependencies.bluecen]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

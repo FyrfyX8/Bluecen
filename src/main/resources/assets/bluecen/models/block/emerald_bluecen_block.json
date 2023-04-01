@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bluecen:blocks/bluecen_block_emerald_tier",
+    "up": "bluecen:blocks/bluecen_block_emerald_tier",
+    "north": "bluecen:blocks/bluecen_block_emerald_tier",
+    "east": "bluecen:blocks/bluecen_block_emerald_tier",
+    "south": "bluecen:blocks/bluecen_block_emerald_tier",
+    "west": "bluecen:blocks/bluecen_block_emerald_tier",
+    "particle": "bluecen:blocks/bluecen_block_emerald_tier"
+  },
+  "render_type": "solid"
+}

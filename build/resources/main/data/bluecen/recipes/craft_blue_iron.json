@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bluecen:bluecen"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "bluecen:bluecen"
+    },
+    "4": {
+      "item": "bluecen:bluecen"
+    },
+    "6": {
+      "item": "bluecen:bluecen"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "bluecen:blue_iron_ingot",
+    "count": 1
+  }
+}

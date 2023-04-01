@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bluecen:blocks/deepslate_bluecen_ore",
+    "up": "bluecen:blocks/deepslate_bluecen_ore",
+    "north": "bluecen:blocks/deepslate_bluecen_ore",
+    "east": "bluecen:blocks/deepslate_bluecen_ore",
+    "south": "bluecen:blocks/deepslate_bluecen_ore",
+    "west": "bluecen:blocks/deepslate_bluecen_ore",
+    "particle": "bluecen:blocks/deepslate_bluecen_ore"
+  },
+  "render_type": "solid"
+}

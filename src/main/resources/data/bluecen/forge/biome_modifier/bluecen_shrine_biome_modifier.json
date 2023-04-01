@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "forest",
+    "sunflower_plains",
+    "taiga",
+    "plains",
+    "savanna",
+    "flower_forest",
+    "desert"
+  ],
+  "features": "bluecen:bluecen_shrine",
+  "step": "surface_structures"
+}

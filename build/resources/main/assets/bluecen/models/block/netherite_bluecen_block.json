@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bluecen:blocks/bluecen_block_netherite_tier",
+    "up": "bluecen:blocks/bluecen_block_netherite_tier",
+    "north": "bluecen:blocks/bluecen_block_netherite_tier",
+    "east": "bluecen:blocks/bluecen_block_netherite_tier",
+    "south": "bluecen:blocks/bluecen_block_netherite_tier",
+    "west": "bluecen:blocks/bluecen_block_netherite_tier",
+    "particle": "bluecen:blocks/bluecen_block_netherite_tier"
+  },
+  "render_type": "solid"
+}

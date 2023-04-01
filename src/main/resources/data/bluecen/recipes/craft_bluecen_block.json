@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bluecen:bluecen"
+    },
+    "1": {
+      "item": "bluecen:bluecen"
+    },
+    "2": {
+      "item": "bluecen:bluecen"
+    },
+    "3": {
+      "item": "bluecen:bluecen"
+    },
+    "4": {
+      "item": "bluecen:bluecen"
+    },
+    "5": {
+      "item": "bluecen:bluecen"
+    },
+    "6": {
+      "item": "bluecen:bluecen"
+    },
+    "7": {
+      "item": "bluecen:bluecen"
+    },
+    "8": {
+      "item": "bluecen:bluecen"
+    }
+  },
+  "result": {
+    "item": "bluecen:bluecen_block",
+    "count": 1
+  }
+}

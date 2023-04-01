@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "diamond_bluecen_greatblade"
+      },
+      "name": "default"
+    },
+    "iron": {
+      "map": {
+        "0": "iron_bluecen_greatblade"
+      },
+      "name": "iron"
+    }
+  }
+}

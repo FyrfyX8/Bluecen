@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bluecen:blocks/bluecen_block",
+    "up": "bluecen:blocks/bluecen_block",
+    "north": "bluecen:blocks/bluecen_block",
+    "east": "bluecen:blocks/bluecen_block",
+    "south": "bluecen:blocks/bluecen_block",
+    "west": "bluecen:blocks/bluecen_block",
+    "particle": "bluecen:blocks/bluecen_block"
+  },
+  "render_type": "solid"
+}

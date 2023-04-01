@@ -1,0 +1,19 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:bamboo_jungle": "2023-04-01 13:51:25 +0200",
+      "minecraft:wooded_badlands": "2023-04-01 13:51:34 +0200",
+      "minecraft:savanna_plateau": "2023-04-01 13:56:24 +0200",
+      "minecraft:sparse_jungle": "2023-04-01 13:51:43 +0200",
+      "minecraft:river": "2023-04-01 13:51:54 +0200",
+      "minecraft:dripstone_caves": "2023-04-01 13:52:16 +0200",
+      "minecraft:forest": "2023-04-01 13:55:17 +0200",
+      "minecraft:desert": "2023-04-01 13:51:21 +0200",
+      "minecraft:jungle": "2023-04-01 13:48:20 +0200",
+      "minecraft:savanna": "2023-04-01 13:55:18 +0200",
+      "minecraft:plains": "2023-04-01 13:51:51 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

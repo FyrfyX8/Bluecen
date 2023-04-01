@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bluecen:blocks/stone_bricks",
+    "up": "bluecen:blocks/bluecen_great_sword_spawn",
+    "north": "bluecen:blocks/stone_bricks",
+    "east": "bluecen:blocks/stone_bricks",
+    "south": "bluecen:blocks/stone_bricks",
+    "west": "bluecen:blocks/stone_bricks",
+    "particle": "bluecen:blocks/stone_bricks"
+  },
+  "render_type": "solid"
+}

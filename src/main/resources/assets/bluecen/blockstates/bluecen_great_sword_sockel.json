@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bluecen:block/bluecen_great_sword_sockel"
+    },
+    "facing=east": {
+      "model": "bluecen:block/bluecen_great_sword_sockel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bluecen:block/bluecen_great_sword_sockel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bluecen:block/bluecen_great_sword_sockel",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bluecen:block/iron_bluecen_great_blade_block"
+    },
+    "facing=east": {
+      "model": "bluecen:block/iron_bluecen_great_blade_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bluecen:block/iron_bluecen_great_blade_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bluecen:block/iron_bluecen_great_blade_block",
+      "y": 270
+    }
+  }
+}

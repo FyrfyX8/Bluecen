@@ -1,0 +1,9 @@
+{
+  "parent": "bluecen:custom/fyrfys_sword_block",
+  "textures": {
+    "all": "bluecen:blocks/diamond_bluecen_greatblade",
+    "particle": "bluecen:blocks/diamond_bluecen_greatblade",
+    "0": "bluecen:blocks/diamond_bluecen_greatblade"
+  },
+  "render_type": "solid"
+}

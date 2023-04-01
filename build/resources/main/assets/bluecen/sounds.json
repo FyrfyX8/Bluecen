@@ -1,0 +1,62 @@
+{
+  "block.bluecen_anchor.activated": {
+    "category": "block",
+    "subtitle": "subtitles.block.bluecen_anchor.activated",
+    "sounds": [
+      {
+        "name": "bluecen:activate1",
+        "stream": false
+      },
+      {
+        "name": "bluecen:activate2",
+        "stream": false
+      },
+      {
+        "name": "bluecen:activate3",
+        "stream": false
+      },
+      {
+        "name": "bluecen:activate4",
+        "stream": false
+      },
+      {
+        "name": "bluecen:activate5",
+        "stream": false
+      },
+      {
+        "name": "bluecen:activate6",
+        "stream": false
+      }
+    ]
+  },
+  "block.bluecen_anchor.powerd": {
+    "category": "block",
+    "subtitle": "subtitles.block.bluecen_anchor.powerd",
+    "sounds": [
+      {
+        "name": "bluecen:power1",
+        "stream": false
+      },
+      {
+        "name": "bluecen:power2",
+        "stream": false
+      },
+      {
+        "name": "bluecen:power3",
+        "stream": false
+      },
+      {
+        "name": "bluecen:power4",
+        "stream": false
+      },
+      {
+        "name": "bluecen:power5",
+        "stream": false
+      },
+      {
+        "name": "bluecen:power6",
+        "stream": false
+      }
+    ]
+  }
+}

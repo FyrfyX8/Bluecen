@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "bluecen:items/blue_iron_sword"
+  }
+}
