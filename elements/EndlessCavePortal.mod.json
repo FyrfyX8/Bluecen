@@ -28,7 +28,7 @@
         "my": 6.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 10.0,
+        "My": 9.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -76,7 +76,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "DESTROY",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "GLASS"
@@ -117,7 +117,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onEntityCollides": {
+    "onEntityWalksOn": {
       "name": "EndlessCavePortalEntityCollidesInTheBlock"
     },
     "spawnWorldTypes": [],

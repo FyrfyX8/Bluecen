@@ -23,7 +23,7 @@ import net.mcreator.bluecen.procedures.EndlessCavePortalEntityCollidesInTheBlock
 
 public class EndlessCavePortalBlock extends Block {
 	public EndlessCavePortalBlock() {
-		super(BlockBehaviour.Properties.of(Material.PORTAL, MaterialColor.NONE).sound(SoundType.GLASS).strength(-1f, 0f).lightLevel(s -> 11).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.PORTAL, MaterialColor.NONE).sound(SoundType.GLASS).strength(-1f, 0f).lightLevel(s -> 11).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -48,7 +48,7 @@ public class EndlessCavePortalBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(0, 6, 0, 16, 10, 16);
+		return box(0, 6, 0, 16, 9, 16);
 	}
 
 	@Override
@@ -57,8 +57,8 @@ public class EndlessCavePortalBlock extends Block {
 	}
 
 	@Override
-	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
-		super.entityInside(blockstate, world, pos, entity);
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
+		super.stepOn(world, pos, blockstate, entity);
 		EndlessCavePortalEntityCollidesInTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 }
