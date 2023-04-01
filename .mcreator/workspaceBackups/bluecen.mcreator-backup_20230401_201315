@@ -1,0 +1,1254 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bluecen",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/item/BluecenItem.java",
+          "src/main/resources/assets/bluecen/models/item/bluecen.json"
+        ]
+      }
+    },
+    {
+      "name": "BluecenBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecen_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/block/BluecenBlockBlock.java",
+          "src/main/resources/assets/bluecen/blockstates/bluecen_block.json",
+          "src/main/resources/assets/bluecen/models/block/bluecen_block.json",
+          "src/main/resources/assets/bluecen/models/item/bluecen_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBluecenBlock",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_bluecen_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_bluecen_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueceen",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blueceen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blueceen.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateBluecenOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_bluecen_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/block/DeepslateBluecenOreBlock.java",
+          "src/main/resources/assets/bluecen/models/block/deepslate_bluecen_ore.json",
+          "src/main/resources/data/bluecen/forge/biome_modifier/deepslate_bluecen_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/bluecen/world/features/ores/DeepslateBluecenOreFeature.java",
+          "src/main/resources/assets/bluecen/models/item/deepslate_bluecen_ore.json",
+          "src/main/resources/assets/bluecen/blockstates/deepslate_bluecen_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "BluecenOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecen_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/world/features/ores/BluecenOreFeature.java",
+          "src/main/resources/assets/bluecen/models/item/bluecen_ore.json",
+          "src/main/java/net/mcreator/bluecen/block/BluecenOreBlock.java",
+          "src/main/resources/data/bluecen/forge/biome_modifier/bluecen_ore_biome_modifier.json",
+          "src/main/resources/assets/bluecen/models/block/bluecen_ore.json",
+          "src/main/resources/assets/bluecen/blockstates/bluecen_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LootDeepslateBluecenOre",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_deepslate_bluecen_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/loot_tables/blocks/deepslate_bluecen_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LootBluecenOre",
+      "type": "loottable",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_bluecen_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/loot_tables/blocks/bluecen_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "BluecenOreDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecen_ore_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/BluecenOreDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronBluecenBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bluecen_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/block/iron_bluecen_block.json",
+          "src/main/resources/assets/bluecen/blockstates/iron_bluecen_block.json",
+          "src/main/java/net/mcreator/bluecen/block/IronBluecenBlockBlock.java",
+          "src/main/resources/assets/bluecen/models/item/iron_bluecen_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldBluecenBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_bluecen_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/item/gold_bluecen_block.json",
+          "src/main/java/net/mcreator/bluecen/block/GoldBluecenBlockBlock.java",
+          "src/main/resources/assets/bluecen/models/block/gold_bluecen_block.json",
+          "src/main/resources/assets/bluecen/blockstates/gold_bluecen_block.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldBluecenBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_bluecen_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/blockstates/emerald_bluecen_block.json",
+          "src/main/java/net/mcreator/bluecen/block/EmeraldBluecenBlockBlock.java",
+          "src/main/resources/assets/bluecen/models/block/emerald_bluecen_block.json",
+          "src/main/resources/assets/bluecen/models/item/emerald_bluecen_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondBluecenBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_bluecen_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/block/DiamondBluecenBlockBlock.java",
+          "src/main/resources/assets/bluecen/blockstates/diamond_bluecen_block.json",
+          "src/main/resources/assets/bluecen/models/item/diamond_bluecen_block.json",
+          "src/main/resources/assets/bluecen/models/block/diamond_bluecen_block.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteBluecenBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_bluecen_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/block/netherite_bluecen_block.json",
+          "src/main/resources/assets/bluecen/models/item/netherite_bluecen_block.json",
+          "src/main/resources/assets/bluecen/blockstates/netherite_bluecen_block.json",
+          "src/main/java/net/mcreator/bluecen/block/NetheriteBluecenBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BluecenTransformation",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecen_transformation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/BluecenTransformationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreateItemApplycationIronToBluecn",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_item_applycation_iron_to_bluecn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/create_item_applycation_iron_to_bluecn.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateItemApplycationGoldToBluecen",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_item_applycation_gold_to_bluecen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/create_item_applycation_gold_to_bluecen.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateItemApplycationEmeraldToBluecen",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_item_applycation_emerald_to_bluecen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/create_item_applycation_emerald_to_bluecen.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateItemApplycationDiamondToBluecen",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_item_applycation_diamond_to_bluecen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/create_item_applycation_diamond_to_bluecen.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateItemApplycationNetheriteToBluecen",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_item_applycation_netherite_to_bluecen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/create_item_applycation_netherite_to_bluecen.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueIronIngot",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/item/BlueIronIngotItem.java",
+          "src/main/resources/assets/bluecen/models/item/blue_iron_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIron",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueIronBlock",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/block/blue_iron_block.json",
+          "src/main/java/net/mcreator/bluecen/block/BlueIronBlockBlock.java",
+          "src/main/resources/assets/bluecen/models/item/blue_iron_block.json",
+          "src/main/resources/assets/bluecen/blockstates/blue_iron_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIronBlock",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIronFromBlock",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_from_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_from_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateMixingBlueIronIngot",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "create_mixing_blue_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/create_mixing_blue_iron_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueIronSword",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_iron_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/item/BlueIronSwordItem.java",
+          "src/main/resources/assets/bluecen/models/item/blue_iron_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueIronPickaxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_iron_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/item/BlueIronPickaxeItem.java",
+          "src/main/resources/assets/bluecen/models/item/blue_iron_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueIronAxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_iron_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/item/blue_iron_axe.json",
+          "src/main/java/net/mcreator/bluecen/item/BlueIronAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueIronShovel",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_iron_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/item/BlueIronShovelItem.java",
+          "src/main/resources/assets/bluecen/models/item/blue_iron_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueIronHoe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_iron_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/item/blue_iron_hoe.json",
+          "src/main/java/net/mcreator/bluecen/item/BlueIronHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueIronArmor",
+      "type": "armor",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_iron_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/item/BlueIronArmorItem.java",
+          "src/main/resources/assets/bluecen/models/item/blue_iron_armor_leggings.json",
+          "src/main/resources/assets/bluecen/models/item/blue_iron_armor_chestplate.json",
+          "src/main/resources/assets/bluecen/models/item/blue_iron_armor_boots.json",
+          "src/main/resources/assets/bluecen/models/item/blue_iron_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIronSword",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIronPickaxe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIronAxe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIronShovel",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIronHoe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIronHelmet",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIronChestplate",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIronLeggins",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_leggins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_leggins.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlueIronBoots",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "BluecenGreatSwordSockel",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecen_great_sword_sockel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/blockstates/bluecen_great_sword_sockel.json",
+          "src/main/resources/assets/bluecen/models/block/bluecen_great_sword_sockel.json",
+          "src/main/resources/assets/bluecen/models/item/bluecen_great_sword_sockel.json",
+          "src/main/java/net/mcreator/bluecen/block/BluecenGreatSwordSockelBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LootGreatbladeShrine",
+      "type": "loottable",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_greatblade_shrine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/loot_tables/chests/greatblade_shrine.json"
+        ]
+      }
+    },
+    {
+      "name": "IronBluecenGreatBlade",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bluecen_great_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/item/IronBluecenGreatBladeItem.java",
+          "src/main/resources/assets/bluecen/models/item/iron_bluecen_great_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "IronBluecenGreatBladeBlock",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_bluecen_great_blade_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/block/IronBluecenGreatBladeBlockBlock.java",
+          "src/main/resources/assets/bluecen/models/item/iron_bluecen_great_blade_block.json",
+          "src/main/resources/assets/bluecen/blockstates/iron_bluecen_great_blade_block.json",
+          "src/main/resources/assets/bluecen/models/block/iron_bluecen_great_blade_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GetIronGreatblade",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_iron_greatblade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/GetIronGreatbladeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondBluecenGreatBlade",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_bluecen_great_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/item/DiamondBluecenGreatBladeItem.java",
+          "src/main/resources/assets/bluecen/models/item/diamond_bluecen_great_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondBluecenGreatBladeBlock",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_bluecen_great_blade_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/block/DiamondBluecenGreatBladeBlockBlock.java",
+          "src/main/resources/assets/bluecen/models/item/diamond_bluecen_great_blade_block.json",
+          "src/main/resources/assets/bluecen/models/block/diamond_bluecen_great_blade_block.json",
+          "src/main/resources/assets/bluecen/blockstates/diamond_bluecen_great_blade_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GetDiamondGreatBlade",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_diamond_great_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/GetDiamondGreatBladeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BluecenAnchor",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecen_anchor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/item/bluecen_anchor.json",
+          "src/main/java/net/mcreator/bluecen/block/BluecenAnchorBlock.java",
+          "src/main/java/net/mcreator/bluecen/block/entity/BluecenAnchorBlockEntity.java",
+          "src/main/resources/assets/bluecen/blockstates/bluecen_anchor.json",
+          "src/main/resources/assets/bluecen/models/block/bluecen_anchor.json"
+        ]
+      }
+    },
+    {
+      "name": "PowerBluecenAnchorBlock",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_bluecen_anchor_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/PowerBluecenAnchorBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BluecenAnchorSpawnStructureCheck",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecen_anchor_spawn_structure_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/BluecenAnchorSpawnStructureCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlacedBluecenAncor",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placed_bluecen_ancor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/PlacedBluecenAncorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BluecenShrine",
+      "type": "structure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecen_shrine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/world/features/BluecenShrineFeature.java",
+          "src/main/resources/data/bluecen/forge/biome_modifier/bluecen_shrine_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Recovery",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recovery",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/enchantment/RecoveryEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "SafeRecoveryToRecoveryBase",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safe_recovery_to_recovery_base",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/SafeRecoveryToRecoveryBaseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SafeRecoveryFromDeath",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safe_recovery_from_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/SafeRecoveryFromDeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GetRecovery",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_recovery",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/GetRecoveryProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeleteItemsOnDeath",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delete_items_on_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/DeleteItemsOnDeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RevertRecoveryIfToMuch",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revert_recovery_if_to_much",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/RevertRecoveryIfToMuchProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LowerWhenDropped",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lower_when_dropped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/LowerWhenDroppedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CountRecoveryTag",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "count_recovery_tag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/CountRecoveryTagProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReWarning",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "re_warning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/client/screens/ReWarningOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "OverlayActive",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlay_active",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/OverlayActiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndlessCaves",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_caves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/world/biome/EndlessCavesBiome.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "ItemsSafed",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Slot_1",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Slot_2",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Slot_3",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Slot_4",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Slot_5",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "Slot_6",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "block.bluecen_anchor.activated",
+      "files": [
+        "activate1",
+        "activate2",
+        "activate3",
+        "activate4",
+        "activate5",
+        "activate6"
+      ],
+      "category": "block",
+      "subtitle": "Bluecen Block activated"
+    },
+    {
+      "name": "block.bluecen_anchor.powerd",
+      "files": [
+        "power1",
+        "power2",
+        "power3",
+        "power4",
+        "power5",
+        "power6"
+      ],
+      "category": "block",
+      "subtitle": "Bluecen Anchor powerd"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.bluecen.blue_iron_block": "Block of Blue Iron",
+      "item.bluecen.blue_iron_armor_boots": "Blue Iron Boots",
+      "item.bluecen.iron_bluecen_great_blade": "Iron Bluecen Great Blade",
+      "block.bluecen.bluecen_anchor": "Bluecen Anchor",
+      "enchantment.bluecen.recovery": "Recovery",
+      "block.bluecen.bluecen_block": "Block of Bluecen",
+      "block.bluecen.iron_bluecen_block": "Iron encased Block of Bluecen",
+      "item.bluecen.bluecen": "Bluecen",
+      "block.bluecen.bluecen_ore": "Bluecen Ore",
+      "item.bluecen.blue_iron_pickaxe": "Blue Iron Pickaxe",
+      "item.bluecen.blue_iron_shovel": "Blue Iron Shovel",
+      "biome.bluecen.endless_caves": "Endless Caves",
+      "item.bluecen.diamond_bluecen_great_blade": "Diamond Bluecen Great Blade",
+      "item.bluecen.blue_iron_hoe": "Blue Iron Hoe",
+      "item.bluecen.blue_iron_armor_helmet": "Blue Iron Helmet",
+      "item.bluecen.blue_iron_armor_chestplate": "Blue Iron Chestplate",
+      "item.bluecen.blue_iron_sword": "Blue Iron Sword",
+      "block.bluecen.bluecen_great_sword_sockel": "Bluecen Great Sword Sockel",
+      "item.bluecen.blue_iron_axe": "Blue Iron Axe",
+      "block.bluecen.iron_bluecen_great_blade_block": "Iron Bluecen Great Blade Block",
+      "subtitles.block.bluecen_anchor.activated": "Bluecen Block activated",
+      "subtitles.block.bluecen_anchor.powerd": "Bluecen Anchor powerd",
+      "block.bluecen.emerald_bluecen_block": "Emerald encased Block of Bluecen",
+      "block.bluecen.netherite_bluecen_block": "Netherite encased Block of Bluecen",
+      "block.bluecen.diamond_bluecen_great_blade_block": "Iron Bluecen Great Blade Block",
+      "item.bluecen.blue_iron_armor_leggings": "Blue Iron Leggings",
+      "item.bluecen.blue_iron_ingot": "Blue Iron Ingot",
+      "block.bluecen.diamond_bluecen_block": "Diamond encased Block of Bluecen",
+      "block.bluecen.deepslate_bluecen_ore": "Deepslate Bluecen Ore",
+      "block.bluecen.gold_bluecen_block": "Gold encased Block of Bluecen"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "bluecen",
+    "modName": "Bluecen",
+    "version": "1.1.0",
+    "description": "This Mod adds two new materials, the first one is Bluecen wich has jump boost like powers and teh second one is Blue Iron wich is an alloy of Iron and Bluecen.",
+    "author": "FyrfyX8",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/bluecen",
+    "license": "Apache License version 2.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "68747470733a2f2f692e696d6775722e636f6d2f535861655057362e706e67",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.bluecen",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

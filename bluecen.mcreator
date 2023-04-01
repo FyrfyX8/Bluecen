@@ -1106,6 +1106,65 @@
           }
         ]
       }
+    },
+    {
+      "name": "EndlessCaves",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_caves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/world/biome/EndlessCavesBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "EndlessCave",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_cave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/dimension/endless_cave.json",
+          "src/main/resources/data/bluecen/dimension_type/endless_cave.json",
+          "src/main/java/net/mcreator/bluecen/world/dimension/EndlessCaveDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "DummyDimensonRightclicked",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dummy_dimenson_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/DummyDimensonRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DummyDimenson",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dummy_dimenson",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/item/dummy_dimenson.json",
+          "src/main/java/net/mcreator/bluecen/item/DummyDimensonItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1183,6 +1242,7 @@
   "language_map": {
     "en_us": {
       "block.bluecen.blue_iron_block": "Block of Blue Iron",
+      "item.bluecen.endless_cave": "Endless Cave Portal Igniter",
       "item.bluecen.blue_iron_armor_boots": "Blue Iron Boots",
       "item.bluecen.iron_bluecen_great_blade": "Iron Bluecen Great Blade",
       "block.bluecen.bluecen_anchor": "Bluecen Anchor",
@@ -1193,6 +1253,7 @@
       "block.bluecen.bluecen_ore": "Bluecen Ore",
       "item.bluecen.blue_iron_pickaxe": "Blue Iron Pickaxe",
       "item.bluecen.blue_iron_shovel": "Blue Iron Shovel",
+      "biome.bluecen.endless_caves": "Endless Caves",
       "item.bluecen.diamond_bluecen_great_blade": "Diamond Bluecen Great Blade",
       "item.bluecen.blue_iron_hoe": "Blue Iron Hoe",
       "item.bluecen.blue_iron_armor_helmet": "Blue Iron Helmet",
@@ -1206,6 +1267,7 @@
       "block.bluecen.emerald_bluecen_block": "Emerald encased Block of Bluecen",
       "block.bluecen.netherite_bluecen_block": "Netherite encased Block of Bluecen",
       "block.bluecen.diamond_bluecen_great_blade_block": "Iron Bluecen Great Blade Block",
+      "item.bluecen.dummy_dimenson": "Dummy Dimenson",
       "item.bluecen.blue_iron_armor_leggings": "Blue Iron Leggings",
       "item.bluecen.blue_iron_ingot": "Blue Iron Ingot",
       "block.bluecen.diamond_bluecen_block": "Diamond encased Block of Bluecen",

@@ -35,6 +35,7 @@ import net.mcreator.bluecen.init.BluecenModFeatures;
 import net.mcreator.bluecen.init.BluecenModEnchantments;
 import net.mcreator.bluecen.init.BluecenModBlocks;
 import net.mcreator.bluecen.init.BluecenModBlockEntities;
+import net.mcreator.bluecen.init.BluecenModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -63,6 +64,7 @@ public class BluecenMod {
 
 		BluecenModEnchantments.REGISTRY.register(bus);
 
+		BluecenModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

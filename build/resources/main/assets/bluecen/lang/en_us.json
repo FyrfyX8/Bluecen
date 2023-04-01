@@ -1,5 +1,6 @@
 {
   "block.bluecen.blue_iron_block": "Block of Blue Iron",
+  "item.bluecen.endless_cave": "Endless Cave Portal Igniter",
   "item.bluecen.blue_iron_armor_boots": "Blue Iron Boots",
   "item.bluecen.iron_bluecen_great_blade": "Iron Bluecen Great Blade",
   "block.bluecen.bluecen_anchor": "Bluecen Anchor",
@@ -10,6 +11,7 @@
   "block.bluecen.bluecen_ore": "Bluecen Ore",
   "item.bluecen.blue_iron_pickaxe": "Blue Iron Pickaxe",
   "item.bluecen.blue_iron_shovel": "Blue Iron Shovel",
+  "biome.bluecen.endless_caves": "Endless Caves",
   "item.bluecen.diamond_bluecen_great_blade": "Diamond Bluecen Great Blade",
   "item.bluecen.blue_iron_hoe": "Blue Iron Hoe",
   "item.bluecen.blue_iron_armor_helmet": "Blue Iron Helmet",
@@ -23,6 +25,7 @@
   "block.bluecen.emerald_bluecen_block": "Emerald encased Block of Bluecen",
   "block.bluecen.netherite_bluecen_block": "Netherite encased Block of Bluecen",
   "block.bluecen.diamond_bluecen_great_blade_block": "Iron Bluecen Great Blade Block",
+  "item.bluecen.dummy_dimenson": "Dummy Dimenson",
   "item.bluecen.blue_iron_armor_leggings": "Blue Iron Leggings",
   "item.bluecen.blue_iron_ingot": "Blue Iron Ingot",
   "block.bluecen.diamond_bluecen_block": "Diamond encased Block of Bluecen",
