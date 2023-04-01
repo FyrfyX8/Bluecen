@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "portal": "endless_cave_portal"
+      },
+      "name": "default"
+    }
+  }
+}

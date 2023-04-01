@@ -18,9 +18,12 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.bluecen.procedures.PlacedBluecenAncorProcedure;
+import net.mcreator.bluecen.procedures.BluecenAnchorUpdateTickProcedure;
 import net.mcreator.bluecen.block.entity.BluecenAnchorBlockEntity;
 
 import java.util.List;
@@ -49,6 +52,22 @@ public class BluecenAnchorBlock extends Block implements EntityBlock {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		world.scheduleTick(pos, this, 1);
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		BluecenAnchorUpdateTickProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 1);
 	}
 
 	@Override

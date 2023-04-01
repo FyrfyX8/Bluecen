@@ -18,11 +18,11 @@
       "value": -15689053,
       "falpha": 0.0
     },
-    "canRespawnHere": false,
+    "canRespawnHere": true,
     "hasFog": true,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": false,
-    "sleepResult": "BED_EXPLODES",
+    "sleepResult": "DENY",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {

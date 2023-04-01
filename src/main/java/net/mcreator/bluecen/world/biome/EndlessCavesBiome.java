@@ -25,7 +25,7 @@ import java.util.List;
 
 public class EndlessCavesBiome {
 	public static Biome createBiome() {
-		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-15683397).waterColor(4159204).waterFogColor(329011).skyColor(-15683397).foliageColorOverride(10387789).grassColorOverride(9470285).build();
+		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-13487566).waterColor(4159204).waterFogColor(329011).skyColor(-13487566).foliageColorOverride(10387789).grassColorOverride(9470285).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils.register("bluecen:seagrass_endless_caves", AquaticFeatures.SEAGRASS_SHORT, AquaticPlacements.seagrassPlacement(2)));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,

@@ -14,7 +14,6 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.bluecen.item.IronBluecenGreatBladeItem;
-import net.mcreator.bluecen.item.DummyDimensonItem;
 import net.mcreator.bluecen.item.DiamondBluecenGreatBladeItem;
 import net.mcreator.bluecen.item.BluecenItem;
 import net.mcreator.bluecen.item.BlueIronSwordItem;
@@ -54,7 +53,7 @@ public class BluecenModItems {
 	public static final RegistryObject<Item> DIAMOND_BLUECEN_GREAT_BLADE = REGISTRY.register("diamond_bluecen_great_blade", () -> new DiamondBluecenGreatBladeItem());
 	public static final RegistryObject<Item> DIAMOND_BLUECEN_GREAT_BLADE_BLOCK = block(BluecenModBlocks.DIAMOND_BLUECEN_GREAT_BLADE_BLOCK, null);
 	public static final RegistryObject<Item> BLUECEN_ANCHOR = block(BluecenModBlocks.BLUECEN_ANCHOR, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> DUMMY_DIMENSON = REGISTRY.register("dummy_dimenson", () -> new DummyDimensonItem());
+	public static final RegistryObject<Item> ENDLESS_CAVE_PORTAL = block(BluecenModBlocks.ENDLESS_CAVE_PORTAL, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
