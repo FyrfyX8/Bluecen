@@ -54,6 +54,8 @@ public class BluecenModItems {
 	public static final RegistryObject<Item> DIAMOND_BLUECEN_GREAT_BLADE_BLOCK = block(BluecenModBlocks.DIAMOND_BLUECEN_GREAT_BLADE_BLOCK, null);
 	public static final RegistryObject<Item> BLUECEN_ANCHOR = block(BluecenModBlocks.BLUECEN_ANCHOR, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> ENDLESS_CAVE_PORTAL = block(BluecenModBlocks.ENDLESS_CAVE_PORTAL, null);
+	public static final RegistryObject<Item> ENDLESS_STONE = block(BluecenModBlocks.ENDLESS_STONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> MOSSY_ENDLESS_STONE = block(BluecenModBlocks.MOSSY_ENDLESS_STONE, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

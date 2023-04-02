@@ -9,21 +9,21 @@
     ],
     "worldGenType": "Nether like gen",
     "mainFillerBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:EndlessStone"
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
     },
     "airColor": {
-      "value": -15689053,
+      "value": -13421773,
       "falpha": 0.0
     },
-    "canRespawnHere": true,
+    "canRespawnHere": false,
     "hasFog": true,
     "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
-    "hasSkyLight": false,
+    "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
       "value": ""

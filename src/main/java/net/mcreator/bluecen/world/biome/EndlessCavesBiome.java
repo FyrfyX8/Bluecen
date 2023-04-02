@@ -21,6 +21,8 @@ import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.features.AquaticFeatures;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 
+import net.mcreator.bluecen.init.BluecenModBlocks;
+
 import java.util.List;
 
 public class EndlessCavesBiome {
@@ -31,13 +33,12 @@ public class EndlessCavesBiome {
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("bluecen:disk_sand_endless_caves",
 						FeatureUtils.register("bluecen:disk_sand_endless_caves", Feature.DISK,
-								new DiskConfiguration(RuleBasedBlockStateProvider.simple(Blocks.SAND), BlockPredicate.matchesBlocks(List.of(Blocks.STONE, Blocks.STONE)), UniformInt.of(2, 6), 2)),
+								new DiskConfiguration(RuleBasedBlockStateProvider.simple(Blocks.SAND), BlockPredicate.matchesBlocks(List.of(BluecenModBlocks.MOSSY_ENDLESS_STONE.get(), BluecenModBlocks.ENDLESS_STONE.get())), UniformInt.of(2, 6), 2)),
 						List.of(CountPlacement.of(1), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_TOP_SOLID, BiomeFilter.biome())));
-		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("bluecen:disk_gravel_endless_caves",
-						FeatureUtils.register("bluecen:disk_gravel_endless_caves", Feature.DISK,
-								new DiskConfiguration(RuleBasedBlockStateProvider.simple(Blocks.GRAVEL), BlockPredicate.matchesBlocks(List.of(Blocks.STONE, Blocks.STONE)), UniformInt.of(2, 5), 2)),
-						List.of(CountPlacement.of(2), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_TOP_SOLID, BiomeFilter.biome())));
+		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils.register("bluecen:disk_gravel_endless_caves",
+				FeatureUtils.register("bluecen:disk_gravel_endless_caves", Feature.DISK,
+						new DiskConfiguration(RuleBasedBlockStateProvider.simple(Blocks.GRAVEL), BlockPredicate.matchesBlocks(List.of(BluecenModBlocks.MOSSY_ENDLESS_STONE.get(), BluecenModBlocks.ENDLESS_STONE.get())), UniformInt.of(2, 5), 2)),
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_TOP_SOLID, BiomeFilter.biome())));
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
 		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).temperature(0.5f).downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();

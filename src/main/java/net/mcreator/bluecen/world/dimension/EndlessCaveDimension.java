@@ -21,7 +21,7 @@ public class EndlessCaveDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(0.062745098039, 0.603921568627, 0.639215686275);
+					return new Vec3(0.2, 0.2, 0.2);
 				}
 
 				@Override

@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.bluecen.block.NetheriteBluecenBlockBlock;
+import net.mcreator.bluecen.block.MossyEndlessStoneBlock;
 import net.mcreator.bluecen.block.IronBluecenGreatBladeBlockBlock;
 import net.mcreator.bluecen.block.IronBluecenBlockBlock;
 import net.mcreator.bluecen.block.GoldBluecenBlockBlock;
+import net.mcreator.bluecen.block.EndlessStoneBlock;
 import net.mcreator.bluecen.block.EndlessCavePortalBlock;
 import net.mcreator.bluecen.block.EmeraldBluecenBlockBlock;
 import net.mcreator.bluecen.block.DiamondBluecenGreatBladeBlockBlock;
@@ -42,4 +44,6 @@ public class BluecenModBlocks {
 	public static final RegistryObject<Block> DIAMOND_BLUECEN_GREAT_BLADE_BLOCK = REGISTRY.register("diamond_bluecen_great_blade_block", () -> new DiamondBluecenGreatBladeBlockBlock());
 	public static final RegistryObject<Block> BLUECEN_ANCHOR = REGISTRY.register("bluecen_anchor", () -> new BluecenAnchorBlock());
 	public static final RegistryObject<Block> ENDLESS_CAVE_PORTAL = REGISTRY.register("endless_cave_portal", () -> new EndlessCavePortalBlock());
+	public static final RegistryObject<Block> ENDLESS_STONE = REGISTRY.register("endless_stone", () -> new EndlessStoneBlock());
+	public static final RegistryObject<Block> MOSSY_ENDLESS_STONE = REGISTRY.register("mossy_endless_stone", () -> new MossyEndlessStoneBlock());
 }

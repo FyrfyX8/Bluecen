@@ -4,10 +4,10 @@
   "definition": {
     "name": "Endless Caves",
     "groundBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:MossyEndlessStone"
     },
     "undergroundBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:EndlessStone"
     },
     "underwaterBlock": {
       "value": ""
