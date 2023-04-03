@@ -1,0 +1,9 @@
+{
+  "parent": "bluecen:custom/endless_cave_portal",
+  "textures": {
+    "all": "bluecen:blocks/endless_cave_portal",
+    "particle": "bluecen:blocks/endless_cave_portal",
+    "portal": "bluecen:blocks/endless_cave_portal"
+  },
+  "render_type": "translucent"
+}

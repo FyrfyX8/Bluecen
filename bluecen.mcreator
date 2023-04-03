@@ -1106,6 +1106,561 @@
           }
         ]
       }
+    },
+    {
+      "name": "EndlessRift",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_rift",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/EndlessRiftProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LootMossyEndlessStone",
+      "type": "loottable",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_mossy_endless_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/loot_tables/blocks/mossy_endless_stone.json"
+        ]
+      },
+      "path": "~/Loottables"
+    },
+    {
+      "name": "ScrapeOffWithAxe",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrape_off_with_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/ScrapeOffWithAxeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EndlessWaste",
+      "type": "biome",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_waste",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/world/biome/EndlessWasteBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueIronNugget",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_iron_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/item/BlueIronNuggetItem.java",
+          "src/main/resources/assets/bluecen/models/item/blue_iron_nugget.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EndlessStoneWithRift",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_stone_with_rift",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/block/endless_stone_with_rift.json",
+          "src/main/java/net/mcreator/bluecen/block/EndlessStoneWithRiftBlock.java",
+          "src/main/resources/data/bluecen/forge/biome_modifier/endless_stone_with_rift_biome_modifier.json",
+          "src/main/resources/assets/bluecen/models/item/endless_stone_with_rift.json",
+          "src/main/resources/assets/bluecen/blockstates/endless_stone_with_rift.json",
+          "src/main/java/net/mcreator/bluecen/world/features/ores/EndlessStoneWithRiftFeature.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BluecenAnchorUpdateTick",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluecen_anchor_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/BluecenAnchorUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EndlessStone",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/block/endless_stone.json",
+          "src/main/java/net/mcreator/bluecen/block/EndlessStoneBlock.java",
+          "src/main/resources/assets/bluecen/models/item/endless_stone.json",
+          "src/main/resources/assets/bluecen/blockstates/endless_stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndlessMoss",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_moss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/item/endless_moss.json",
+          "src/main/java/net/mcreator/bluecen/item/EndlessMossItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DeepslateWithRift",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_with_rift",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/block/DeepslateWithRiftBlock.java",
+          "src/main/resources/assets/bluecen/models/block/deepslate_with_rift.json",
+          "src/main/resources/assets/bluecen/models/item/deepslate_with_rift.json",
+          "src/main/resources/assets/bluecen/blockstates/deepslate_with_rift.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndlessMossRoots",
+      "type": "plant",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_moss_roots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/world/features/plants/EndlessMossRootsFeature.java",
+          "src/main/resources/assets/bluecen/models/item/endless_moss_roots.json",
+          "src/main/resources/assets/bluecen/models/block/endless_moss_roots.json",
+          "src/main/resources/assets/bluecen/blockstates/endless_moss_roots.json",
+          "src/main/java/net/mcreator/bluecen/block/EndlessMossRootsBlock.java",
+          "src/main/resources/data/bluecen/forge/biome_modifier/endless_moss_roots_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DeepslateRift",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_rift",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/DeepslateRiftProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CraftBlueIronNugget",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_nugget.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndlessCavePortal",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_cave_portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/blockstates/endless_cave_portal.json",
+          "src/main/resources/assets/bluecen/models/item/endless_cave_portal.json",
+          "src/main/java/net/mcreator/bluecen/block/entity/EndlessCavePortalBlockEntity.java",
+          "src/main/resources/assets/bluecen/models/block/endless_cave_portal.json",
+          "src/main/java/net/mcreator/bluecen/block/EndlessCavePortalBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StoneRift",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_rift",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/StoneRiftProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GlowingForest",
+      "type": "biome",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/world/biome/GlowingForestBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "EndlessBlueIronOre",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_blue_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/forge/biome_modifier/endless_blue_iron_ore_biome_modifier.json",
+          "src/main/resources/assets/bluecen/blockstates/endless_blue_iron_ore.json",
+          "src/main/resources/assets/bluecen/models/item/endless_blue_iron_ore.json",
+          "src/main/resources/assets/bluecen/models/block/endless_blue_iron_ore.json",
+          "src/main/java/net/mcreator/bluecen/world/features/ores/EndlessBlueIronOreFeature.java",
+          "src/main/java/net/mcreator/bluecen/block/EndlessBlueIronOreBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CraftBlueIronIngotFromNugget",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_blue_iron_ingot_from_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_blue_iron_ingot_from_nugget.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "StoneWithRift",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_with_rift",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/block/StoneWithRiftBlock.java",
+          "src/main/resources/assets/bluecen/models/block/stone_with_rift.json",
+          "src/main/resources/data/bluecen/forge/biome_modifier/stone_with_rift_biome_modifier.json",
+          "src/main/resources/assets/bluecen/blockstates/stone_with_rift.json",
+          "src/main/java/net/mcreator/bluecen/world/features/ores/StoneWithRiftFeature.java",
+          "src/main/resources/assets/bluecen/models/item/stone_with_rift.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndlessCavePortalEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_cave_portal_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/EndlessCavePortalEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LootEndlessBlueIronOre",
+      "type": "loottable",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_endless_blue_iron_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/loot_tables/blocks/endless_blue_iron_ore.json"
+        ]
+      },
+      "path": "~/Loottables"
+    },
+    {
+      "name": "EndlessBluecenOre",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_bluecen_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/models/block/endless_bluecen_ore.json",
+          "src/main/java/net/mcreator/bluecen/world/features/ores/EndlessBluecenOreFeature.java",
+          "src/main/resources/assets/bluecen/blockstates/endless_bluecen_ore.json",
+          "src/main/resources/data/bluecen/forge/biome_modifier/endless_bluecen_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/bluecen/block/EndlessBluecenOreBlock.java",
+          "src/main/resources/assets/bluecen/models/item/endless_bluecen_ore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EndlessCave",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_caves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/dimension/endless_caves.json",
+          "src/main/java/net/mcreator/bluecen/world/dimension/EndlessCaveDimension.java",
+          "src/main/resources/data/bluecen/dimension_type/endless_caves.json"
+        ]
+      }
+    },
+    {
+      "name": "SkyEndlessCave",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_endless_cave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/procedures/SkyEndlessCaveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LootEndlessBluecenOre",
+      "type": "loottable",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_endless_bluecen_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/loot_tables/blocks/endless_bluecen_ore.json"
+        ]
+      },
+      "path": "~/Loottables"
+    },
+    {
+      "name": "MossyEndlessStone",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_endless_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bluecen/block/MossyEndlessStoneBlock.java",
+          "src/main/resources/assets/bluecen/models/block/mossy_endless_stone.json",
+          "src/main/resources/assets/bluecen/models/item/mossy_endless_stone.json",
+          "src/main/resources/assets/bluecen/blockstates/mossy_endless_stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CraftEndlessMossBlock",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_endless_moss_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bluecen/recipes/craft_endless_moss_block.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndlessMossBlock",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_moss_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bluecen/blockstates/endless_moss_block.json",
+          "src/main/resources/assets/bluecen/models/item/endless_moss_block.json",
+          "src/main/resources/assets/bluecen/models/block/endless_moss_block.json",
+          "src/main/java/net/mcreator/bluecen/block/EndlessMossBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -1150,6 +1705,12 @@
       "type": "itemstack",
       "scope": "player_persistent",
       "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "PortalTravelAllowed",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -1178,6 +1739,17 @@
       ],
       "category": "block",
       "subtitle": "Bluecen Anchor powerd"
+    },
+    {
+      "name": "block.mossy_endless_stone.scrape",
+      "files": [
+        "scrape1",
+        "scrape2",
+        "scrape3",
+        "scrape4"
+      ],
+      "category": "block",
+      "subtitle": "Mossy Endless Stone scraped"
     }
   ],
   "language_map": {
@@ -1198,6 +1770,7 @@
       "item.bluecen.blue_iron_armor_helmet": "Blue Iron Helmet",
       "item.bluecen.blue_iron_armor_chestplate": "Blue Iron Chestplate",
       "item.bluecen.blue_iron_sword": "Blue Iron Sword",
+      "subtitles.block.mossy_endless_stone.scrape": "Mossy Endless Stone scraped",
       "block.bluecen.bluecen_great_sword_sockel": "Bluecen Great Sword Sockel",
       "item.bluecen.blue_iron_axe": "Blue Iron Axe",
       "block.bluecen.iron_bluecen_great_blade_block": "Iron Bluecen Great Blade Block",
@@ -1206,6 +1779,7 @@
       "block.bluecen.emerald_bluecen_block": "Emerald encased Block of Bluecen",
       "block.bluecen.netherite_bluecen_block": "Netherite encased Block of Bluecen",
       "block.bluecen.diamond_bluecen_great_blade_block": "Iron Bluecen Great Blade Block",
+      "item.bluecen.endless_caves": "Endless Cave Portal Igniter",
       "item.bluecen.blue_iron_armor_leggings": "Blue Iron Leggings",
       "item.bluecen.blue_iron_ingot": "Blue Iron Ingot",
       "block.bluecen.diamond_bluecen_block": "Diamond encased Block of Bluecen",
@@ -1215,7 +1789,33 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "Create",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Loottables",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "bluecen",

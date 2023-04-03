@@ -159,7 +159,7 @@ public class BluecenAnchorSpawnStructureCheckProcedure {
 					}
 				}
 			}
-			if (Math.random() < 0.1) {
+			if (Math.random() < 0.25) {
 				if (Math.random() < 0.75) {
 					if (world instanceof ServerLevel _serverworld) {
 						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("bluecen", "shrine_corridor_v4"));
@@ -193,21 +193,11 @@ public class BluecenAnchorSpawnStructureCheckProcedure {
 						}
 					}
 				}
-				if (Math.random() < 0.1) {
-					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("bluecen", "shrine_loot_room_v3"));
-						if (template != null) {
-							template.placeInWorld(_serverworld, new BlockPos(x + 5, y - 21, z - 25), new BlockPos(x + 5, y - 21, z - 25), new StructurePlaceSettings().setRotation(Rotation.CLOCKWISE_90).setMirror(Mirror.NONE).setIgnoreEntities(false),
-									_serverworld.random, 3);
-						}
-					}
-				} else {
-					if (world instanceof ServerLevel _serverworld) {
-						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("bluecen", "shrine_loot_room_v5"));
-						if (template != null) {
-							template.placeInWorld(_serverworld, new BlockPos(x + 5, y - 21, z - 25), new BlockPos(x + 5, y - 21, z - 25), new StructurePlaceSettings().setRotation(Rotation.CLOCKWISE_90).setMirror(Mirror.NONE).setIgnoreEntities(false),
-									_serverworld.random, 3);
-						}
+				if (world instanceof ServerLevel _serverworld) {
+					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("bluecen", "shrine_loot_room_v3"));
+					if (template != null) {
+						template.placeInWorld(_serverworld, new BlockPos(x + 5, y - 21, z - 25), new BlockPos(x + 5, y - 21, z - 25), new StructurePlaceSettings().setRotation(Rotation.CLOCKWISE_90).setMirror(Mirror.NONE).setIgnoreEntities(false),
+								_serverworld.random, 3);
 					}
 				}
 			}
