@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bluecen:blocks/endless_bluecen_ore",
+    "up": "bluecen:blocks/endless_bluecen_ore",
+    "north": "bluecen:blocks/endless_bluecen_ore",
+    "east": "bluecen:blocks/endless_bluecen_ore",
+    "south": "bluecen:blocks/endless_bluecen_ore",
+    "west": "bluecen:blocks/endless_bluecen_ore",
+    "particle": "bluecen:blocks/endless_bluecen_ore"
+  },
+  "render_type": "solid"
+}

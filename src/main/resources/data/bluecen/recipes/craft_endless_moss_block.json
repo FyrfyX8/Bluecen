@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "bluecen:endless_moss"
+    },
+    "1": {
+      "item": "bluecen:endless_moss"
+    },
+    "2": {
+      "item": "bluecen:endless_moss"
+    },
+    "3": {
+      "item": "bluecen:endless_moss"
+    }
+  },
+  "result": {
+    "item": "bluecen:endless_moss_block",
+    "count": 1
+  }
+}

@@ -75,6 +75,7 @@ public class BluecenModVariables {
 			clone.Slot_5 = original.Slot_5;
 			clone.Slot_6 = original.Slot_6;
 			if (!event.isWasDeath()) {
+				clone.PortalTravelAllowed = original.PortalTravelAllowed;
 			}
 		}
 	}
@@ -117,6 +118,7 @@ public class BluecenModVariables {
 		public ItemStack Slot_4 = ItemStack.EMPTY;
 		public ItemStack Slot_5 = ItemStack.EMPTY;
 		public ItemStack Slot_6 = ItemStack.EMPTY;
+		public boolean PortalTravelAllowed = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -132,6 +134,7 @@ public class BluecenModVariables {
 			nbt.put("Slot_4", Slot_4.save(new CompoundTag()));
 			nbt.put("Slot_5", Slot_5.save(new CompoundTag()));
 			nbt.put("Slot_6", Slot_6.save(new CompoundTag()));
+			nbt.putBoolean("PortalTravelAllowed", PortalTravelAllowed);
 			return nbt;
 		}
 
@@ -144,6 +147,7 @@ public class BluecenModVariables {
 			Slot_4 = ItemStack.of(nbt.getCompound("Slot_4"));
 			Slot_5 = ItemStack.of(nbt.getCompound("Slot_5"));
 			Slot_6 = ItemStack.of(nbt.getCompound("Slot_6"));
+			PortalTravelAllowed = nbt.getBoolean("PortalTravelAllowed");
 		}
 	}
 
@@ -175,6 +179,7 @@ public class BluecenModVariables {
 					variables.Slot_4 = message.data.Slot_4;
 					variables.Slot_5 = message.data.Slot_5;
 					variables.Slot_6 = message.data.Slot_6;
+					variables.PortalTravelAllowed = message.data.PortalTravelAllowed;
 				}
 			});
 			context.setPacketHandled(true);

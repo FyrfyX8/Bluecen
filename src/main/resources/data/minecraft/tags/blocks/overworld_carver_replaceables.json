@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:stone"
+    "bluecen:endless_stone",
+    "bluecen:mossy_endless_stone"
   ]
 }

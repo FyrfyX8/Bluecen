@@ -14,11 +14,13 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.bluecen.item.IronBluecenGreatBladeItem;
+import net.mcreator.bluecen.item.EndlessMossItem;
 import net.mcreator.bluecen.item.DiamondBluecenGreatBladeItem;
 import net.mcreator.bluecen.item.BluecenItem;
 import net.mcreator.bluecen.item.BlueIronSwordItem;
 import net.mcreator.bluecen.item.BlueIronShovelItem;
 import net.mcreator.bluecen.item.BlueIronPickaxeItem;
+import net.mcreator.bluecen.item.BlueIronNuggetItem;
 import net.mcreator.bluecen.item.BlueIronIngotItem;
 import net.mcreator.bluecen.item.BlueIronHoeItem;
 import net.mcreator.bluecen.item.BlueIronAxeItem;
@@ -54,6 +56,17 @@ public class BluecenModItems {
 	public static final RegistryObject<Item> DIAMOND_BLUECEN_GREAT_BLADE_BLOCK = block(BluecenModBlocks.DIAMOND_BLUECEN_GREAT_BLADE_BLOCK, null);
 	public static final RegistryObject<Item> BLUECEN_ANCHOR = block(BluecenModBlocks.BLUECEN_ANCHOR, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> ENDLESS_CAVE_PORTAL = block(BluecenModBlocks.ENDLESS_CAVE_PORTAL, null);
+	public static final RegistryObject<Item> ENDLESS_STONE = block(BluecenModBlocks.ENDLESS_STONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> MOSSY_ENDLESS_STONE = block(BluecenModBlocks.MOSSY_ENDLESS_STONE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> ENDLESS_MOSS_BLOCK = block(BluecenModBlocks.ENDLESS_MOSS_BLOCK, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> STONE_WITH_RIFT = block(BluecenModBlocks.STONE_WITH_RIFT, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DEEPSLATE_WITH_RIFT = block(BluecenModBlocks.DEEPSLATE_WITH_RIFT, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ENDLESS_BLUECEN_ORE = block(BluecenModBlocks.ENDLESS_BLUECEN_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ENDLESS_BLUE_IRON_ORE = block(BluecenModBlocks.ENDLESS_BLUE_IRON_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ENDLESS_STONE_WITH_RIFT = block(BluecenModBlocks.ENDLESS_STONE_WITH_RIFT, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ENDLESS_MOSS = REGISTRY.register("endless_moss", () -> new EndlessMossItem());
+	public static final RegistryObject<Item> BLUE_IRON_NUGGET = REGISTRY.register("blue_iron_nugget", () -> new BlueIronNuggetItem());
+	public static final RegistryObject<Item> ENDLESS_MOSS_ROOTS = block(BluecenModBlocks.ENDLESS_MOSS_ROOTS, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bluecen:blocks/endless_stone_with_rift",
+    "up": "bluecen:blocks/endless_stone_with_rift",
+    "north": "bluecen:blocks/endless_stone_with_rift",
+    "east": "bluecen:blocks/endless_stone_with_rift",
+    "south": "bluecen:blocks/endless_stone_with_rift",
+    "west": "bluecen:blocks/endless_stone_with_rift",
+    "particle": "bluecen:blocks/endless_stone_with_rift"
+  },
+  "render_type": "solid"
+}

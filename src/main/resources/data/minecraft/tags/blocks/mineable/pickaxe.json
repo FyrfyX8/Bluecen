@@ -9,6 +9,13 @@
     "bluecen:emerald_bluecen_block",
     "bluecen:diamond_bluecen_block",
     "bluecen:netherite_bluecen_block",
-    "bluecen:bluecen_anchor"
+    "bluecen:bluecen_anchor",
+    "bluecen:endless_stone",
+    "bluecen:mossy_endless_stone",
+    "bluecen:stone_with_rift",
+    "bluecen:deepslate_with_rift",
+    "bluecen:endless_bluecen_ore",
+    "bluecen:endless_blue_iron_ore",
+    "bluecen:endless_stone_with_rift"
   ]
 }

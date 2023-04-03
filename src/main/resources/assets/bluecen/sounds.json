@@ -58,5 +58,27 @@
         "stream": false
       }
     ]
+  },
+  "block.mossy_endless_stone.scrape": {
+    "category": "block",
+    "subtitle": "subtitles.block.mossy_endless_stone.scrape",
+    "sounds": [
+      {
+        "name": "bluecen:scrape1",
+        "stream": false
+      },
+      {
+        "name": "bluecen:scrape2",
+        "stream": false
+      },
+      {
+        "name": "bluecen:scrape3",
+        "stream": false
+      },
+      {
+        "name": "bluecen:scrape4",
+        "stream": false
+      }
+    ]
   }
 }
