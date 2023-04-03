@@ -49,7 +49,7 @@ public class BluecenAnchorUpdateTickProcedure {
 				&& (world.getBlockState(new BlockPos(x + 1, y + 1, z - 1))).getFluidState().isSource() && (world.getBlockState(new BlockPos(x + 1, y + 1, z - 1))).getBlock() == Blocks.WATER
 				&& (world.getBlockState(new BlockPos(x, y + 1, z))).getFluidState().isSource() && (world.getBlockState(new BlockPos(x, y + 1, z))).getBlock() == Blocks.WATER
 				&& ((world instanceof Level _lvl ? _lvl.dimension() : Level.OVERWORLD) == (Level.OVERWORLD)
-						|| (world instanceof Level _lvl ? _lvl.dimension() : Level.OVERWORLD) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("bluecen:endless_cave"))))) {
+						|| (world instanceof Level _lvl ? _lvl.dimension() : Level.OVERWORLD) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("bluecen:endless_caves"))))) {
 			NerestItem = (Entity) world.getEntitiesOfClass(ItemEntity.class, AABB.ofSize(new Vec3((x + 0.5), (y + 1.5), (z + 0.5)), 1, 1, 1), e -> true).stream().sorted(new Object() {
 				Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 					return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
@@ -80,7 +80,7 @@ public class BluecenAnchorUpdateTickProcedure {
 				if ((world instanceof Level _lvl ? _lvl.dimension() : Level.OVERWORLD) == (Level.OVERWORLD)) {
 					if (world instanceof ServerLevel _origLevel) {
 						LevelAccessor _worldorig = world;
-						world = _origLevel.getServer().getLevel(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("bluecen:endless_cave")));
+						world = _origLevel.getServer().getLevel(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("bluecen:endless_caves")));
 						if (world != null) {
 							if (world instanceof ServerLevel _serverworld) {
 								StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("bluecen", "endless_cave_portal"));

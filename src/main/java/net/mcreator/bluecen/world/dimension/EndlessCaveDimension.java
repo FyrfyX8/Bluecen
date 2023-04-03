@@ -29,7 +29,7 @@ public class EndlessCaveDimension {
 					return true;
 				}
 			};
-			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("bluecen:endless_cave"), customEffect));
+			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("bluecen:endless_caves"), customEffect));
 		}
 	}
 }

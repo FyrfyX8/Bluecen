@@ -4,7 +4,10 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:EndlessCaves"
+        "value": "CUSTOM:GlowingForest"
+      },
+      {
+        "value": "CUSTOM:EndlessWaste"
       }
     ],
     "worldGenType": "Nether like gen",
@@ -23,7 +26,7 @@
     "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
-    "hasSkyLight": true,
+    "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
       "value": ""

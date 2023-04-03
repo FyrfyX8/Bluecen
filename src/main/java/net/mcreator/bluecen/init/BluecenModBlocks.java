@@ -10,16 +10,23 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.bluecen.block.StoneWithRiftBlock;
 import net.mcreator.bluecen.block.NetheriteBluecenBlockBlock;
 import net.mcreator.bluecen.block.MossyEndlessStoneBlock;
 import net.mcreator.bluecen.block.IronBluecenGreatBladeBlockBlock;
 import net.mcreator.bluecen.block.IronBluecenBlockBlock;
 import net.mcreator.bluecen.block.GoldBluecenBlockBlock;
+import net.mcreator.bluecen.block.EndlessStoneWithRiftBlock;
 import net.mcreator.bluecen.block.EndlessStoneBlock;
+import net.mcreator.bluecen.block.EndlessMossRootsBlock;
+import net.mcreator.bluecen.block.EndlessMossBlockBlock;
 import net.mcreator.bluecen.block.EndlessCavePortalBlock;
+import net.mcreator.bluecen.block.EndlessBluecenOreBlock;
+import net.mcreator.bluecen.block.EndlessBlueIronOreBlock;
 import net.mcreator.bluecen.block.EmeraldBluecenBlockBlock;
 import net.mcreator.bluecen.block.DiamondBluecenGreatBladeBlockBlock;
 import net.mcreator.bluecen.block.DiamondBluecenBlockBlock;
+import net.mcreator.bluecen.block.DeepslateWithRiftBlock;
 import net.mcreator.bluecen.block.DeepslateBluecenOreBlock;
 import net.mcreator.bluecen.block.BluecenOreBlock;
 import net.mcreator.bluecen.block.BluecenGreatSwordSockelBlock;
@@ -46,4 +53,11 @@ public class BluecenModBlocks {
 	public static final RegistryObject<Block> ENDLESS_CAVE_PORTAL = REGISTRY.register("endless_cave_portal", () -> new EndlessCavePortalBlock());
 	public static final RegistryObject<Block> ENDLESS_STONE = REGISTRY.register("endless_stone", () -> new EndlessStoneBlock());
 	public static final RegistryObject<Block> MOSSY_ENDLESS_STONE = REGISTRY.register("mossy_endless_stone", () -> new MossyEndlessStoneBlock());
+	public static final RegistryObject<Block> ENDLESS_MOSS_BLOCK = REGISTRY.register("endless_moss_block", () -> new EndlessMossBlockBlock());
+	public static final RegistryObject<Block> STONE_WITH_RIFT = REGISTRY.register("stone_with_rift", () -> new StoneWithRiftBlock());
+	public static final RegistryObject<Block> DEEPSLATE_WITH_RIFT = REGISTRY.register("deepslate_with_rift", () -> new DeepslateWithRiftBlock());
+	public static final RegistryObject<Block> ENDLESS_BLUECEN_ORE = REGISTRY.register("endless_bluecen_ore", () -> new EndlessBluecenOreBlock());
+	public static final RegistryObject<Block> ENDLESS_BLUE_IRON_ORE = REGISTRY.register("endless_blue_iron_ore", () -> new EndlessBlueIronOreBlock());
+	public static final RegistryObject<Block> ENDLESS_STONE_WITH_RIFT = REGISTRY.register("endless_stone_with_rift", () -> new EndlessStoneWithRiftBlock());
+	public static final RegistryObject<Block> ENDLESS_MOSS_ROOTS = REGISTRY.register("endless_moss_roots", () -> new EndlessMossRootsBlock());
 }

@@ -63,7 +63,7 @@ public class EndlessCavePortalEntityCollidesInTheBlockProcedure {
 				sx = sx + 1;
 			}
 			if (found == true) {
-				if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("bluecen:endless_cave")))) {
+				if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("bluecen:endless_caves")))) {
 					{
 						Entity _ent = entity;
 						_ent.teleportTo((x + sx + 2.5), (y + sy + 3), (z + sz + 0.5));
@@ -94,7 +94,7 @@ public class EndlessCavePortalEntityCollidesInTheBlockProcedure {
 					}
 					entity.makeStuckInBlock(Blocks.AIR.defaultBlockState(), new Vec3(0.25, 0.05, 0.25));
 					if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
-						ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("bluecen:endless_cave"));
+						ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("bluecen:endless_caves"));
 						if (_player.level.dimension() == destinationType)
 							return;
 						ServerLevel nextLevel = _player.server.getLevel(destinationType);

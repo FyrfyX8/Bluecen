@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "bluecen:stone_with_rift",
+  "step": "underground_ores"
+}

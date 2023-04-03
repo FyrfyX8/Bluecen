@@ -35,20 +35,20 @@
     ],
     "name": "Mossy Endless Stone",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 1.75,
+    "resistance": 5.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "DECORATIONS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "useLootTableForDrops": true,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -77,26 +77,26 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "MOSS_CARPET"
     },
     "breakSound": {
-      "value": ""
+      "value": "block.stone.break"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.moss.fall"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.moss_carpet.hit"
     },
     "placeSound": {
-      "value": ""
+      "value": "block.stone.place"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.moss.step"
     },
-    "luminance": 8,
+    "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
